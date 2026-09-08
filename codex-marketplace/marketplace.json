@@ -1,0 +1,20 @@
+{
+  "name": "ae-control-local",
+  "interface": {
+    "displayName": "AE Control Marketplace"
+  },
+  "plugins": [
+    {
+      "name": "ae-control",
+      "source": {
+        "source": "local",
+        "path": "./plugins/ae-control"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Productivity"
+    }
+  ]
+}

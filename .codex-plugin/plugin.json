@@ -1,0 +1,27 @@
+{
+  "name": "ae-control",
+  "version": "1.0.0",
+  "description": "Direct, guarded Adobe After Effects control for macOS via PID-targeted Apple Events.",
+  "author": {
+    "name": "Codex AE Community"
+  },
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "AE Control",
+    "shortDescription": "Control local After Effects compositions safely.",
+    "longDescription": "Targets multiple local After Effects projects by exact process ID without stealing window or keyboard focus. Inspects compositions, properties, layers, and executes guarded JSX automation.",
+    "developerName": "AE Control Contributors",
+    "category": "Productivity",
+    "capabilities": [
+      "Write"
+    ],
+    "websiteURL": "https://helpx.adobe.com/after-effects/user-guide.html",
+    "privacyPolicyURL": "https://openai.com/policies/privacy-policy/",
+    "termsOfServiceURL": "https://openai.com/policies/terms-of-use/",
+    "defaultPrompt": [
+      "Inspect my open After Effects composition.",
+      "Check open AE instance and take a snapshot of the composition."
+    ]
+  },
+  "mcpServers": "./.mcp.json"
+}
