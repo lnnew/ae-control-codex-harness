@@ -6,7 +6,7 @@ SERVER_DIR="$REPO_DIR/mcp-server"
 MARKETPLACE_DIR="$REPO_DIR/codex-marketplace"
 ENTRYPOINT="$SERVER_DIR/index.mjs"
 
-echo "=== AE Control Installation ==="
+echo "=== ae-control-codex-harness Installation ==="
 
 # 1. OS check
 if [[ "$(uname -s)" != "Darwin" ]]; then

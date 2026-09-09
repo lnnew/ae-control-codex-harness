@@ -1,4 +1,4 @@
-# AE Control: After Effects Automation for Codex
+# ae-control-codex-harness: After Effects Automation for Codex
 
 Direct, guarded Adobe After Effects control for Codex via the Model Context Protocol (MCP) on macOS.
 
@@ -14,7 +14,7 @@ Direct, guarded Adobe After Effects control for Codex via the Model Context Prot
 ## Architecture
 
 ```text
-ae-control/
+ae-control-codex-harness/
 ├── install.sh              # 1-click setup (Swift build, npm ci, Codex plugin registration)
 ├── AGENTS.md               # Guidelines for Codex on safe AE automation
 ├── mcp-server/
@@ -118,7 +118,7 @@ Add the following to your `~/.codex/config.toml`:
 ```toml
 [mcp_servers.ae-control]
 command = "node"
-args = ["/absolute/path/to/ae-control/mcp-server/index.mjs"]
+args = ["/absolute/path/to/ae-control-codex-harness/mcp-server/index.mjs"]
 ```
 
 ---
