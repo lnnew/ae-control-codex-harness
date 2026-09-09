@@ -48,13 +48,14 @@ ae-control-codex-harness/
 
 ## Installation
 
-### 1. Run 1-Click Install Script
-
-In the cloned repository directory, run:
+### 1. Clone Repository & Run 1-Click Install Script
 
 ```bash
+git clone https://github.com/lnnew/ae-control-codex-harness.git
+cd ae-control-codex-harness
 ./install.sh
 ```
+
 
 The script automatically:
 1. Installs Node.js dependencies (`npm ci --omit=dev`).
